@@ -3,7 +3,7 @@ class Solution:
         try :
             return nums.index(target)
         except :
-            for i in range(1,10000) :
+            for i in range(1,999) :
                 try :
                     return nums.index(target+i)
                 except :
